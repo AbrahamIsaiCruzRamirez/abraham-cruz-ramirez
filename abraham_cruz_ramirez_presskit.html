@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abraham Isai Cruz Ramirez — Press Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', 'Helvetica Neue', sans-serif;
+  --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
+  --text-sm:   clamp(0.875rem, 0.8rem  + 0.35vw, 1rem);
+  --text-base: clamp(1rem,     0.95rem + 0.25vw, 1.125rem);
+  --text-lg:   clamp(1.125rem, 1rem    + 0.75vw, 1.5rem);
+  --text-xl:   clamp(1.5rem,   1.2rem  + 1.25vw, 2.25rem);
+  --text-2xl:  clamp(2rem,     1.2rem  + 2.5vw,  3.5rem);
+  --text-3xl:  clamp(2.5rem,   1rem    + 4vw,    5rem);
+  --space-1:0.25rem;--space-2:0.5rem;--space-3:0.75rem;--space-4:1rem;
+  --space-5:1.25rem;--space-6:1.5rem;--space-8:2rem;--space-10:2.5rem;
+  --space-12:3rem;--space-16:4rem;--space-20:5rem;--space-24:6rem;
+  --radius-sm:0.375rem;--radius-md:0.5rem;--radius-lg:0.75rem;
+  --transition-interactive: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+[data-theme="dark"] {
+  --color-bg:#0e0d0b;--color-surface:#141310;--color-surface-2:#1a1916;
+  --color-surface-offset:#201f1c;--color-divider:#2a2925;--color-border:#333129;
+  --color-text:#e8e4da;--color-text-muted:#8a8678;--color-text-faint:#4a4840;
+  --color-gold:#c9a84c;--color-gold-hover:#dbb85e;
+  --shadow-sm:0 1px 2px oklch(0 0 0/.3);--shadow-md:0 4px 16px oklch(0 0 0/.4);--shadow-lg:0 12px 40px oklch(0 0 0/.5);
+}
+[data-theme="light"] {
+  --color-bg:#f5f2ec;--color-surface:#faf8f3;--color-surface-2:#ffffff;
+  --color-surface-offset:#ede9e0;--color-divider:#ddd9cf;--color-border:#ccc8be;
+  --color-text:#1a1814;--color-text-muted:#6b6860;--color-text-faint:#aaa89f;
+  --color-gold:#9a6f1a;--color-gold-hover:#7d5a12;
+  --shadow-sm:0 1px 2px oklch(0.2 0.01 80/.06);--shadow-md:0 4px 16px oklch(0.2 0.01 80/.08);--shadow-lg:0 12px 40px oklch(0.2 0.01 80/.12);
+}
+@media(prefers-color-scheme:light){:root:not([data-theme]){
+  --color-bg:#f5f2ec;--color-surface:#faf8f3;--color-surface-2:#ffffff;
+  --color-surface-offset:#ede9e0;--color-divider:#ddd9cf;--color-border:#ccc8be;
+  --color-text:#1a1814;--color-text-muted:#6b6860;--color-text-faint:#aaa89f;
+  --color-gold:#9a6f1a;--color-gold-hover:#7d5a12;
+  --shadow-sm:0 1px 2px oklch(0.2 0.01 80/.06);--shadow-md:0 4px 16px oklch(0.2 0.01 80/.08);--shadow-lg:0 12px 40px oklch(0.2 0.01 80/.12);
+}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;scroll-behavior:smooth;}
+body{min-height:100dvh;line-height:1.6;font-family:var(--font-body);font-size:var(--text-base);color:var(--color-text);background:var(--color-bg);transition:background var(--transition-interactive),color var(--transition-interactive);}
+img{display:block;max-width:100%;height:auto}
+h1,h2,h3,h4{text-wrap:balance;line-height:1.15}
+p,li{text-wrap:pretty;max-width:72ch}
+a,button{transition:color var(--transition-interactive),background var(--transition-interactive),border-color var(--transition-interactive),opacity var(--transition-interactive);}
+button{cursor:pointer;background:none;border:none}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+.container{max-width:940px;margin-inline:auto;padding-inline:var(--space-6);}
+
+/* THEME TOGGLE */
+.theme-toggle{position:fixed;top:var(--space-4);right:var(--space-4);z-index:100;width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:var(--color-surface-2);border:1px solid oklch(from var(--color-text) l c h / 0.12);box-shadow:var(--shadow-sm);color:var(--color-text-muted);}
+.theme-toggle:hover{color:var(--color-text);box-shadow:var(--shadow-md);}
+
+/* HERO — two column: text left, portrait right */
+.hero{display:grid;grid-template-columns:1fr 280px;gap:var(--space-12);align-items:start;padding:var(--space-20) 0 var(--space-12);border-bottom:1px solid var(--color-divider);}
+.hero-location{font-size:var(--text-xs);letter-spacing:0.18em;text-transform:uppercase;color:var(--color-gold);margin-bottom:var(--space-6);}
+.hero-name{font-family:var(--font-display);font-size:var(--text-3xl);font-weight:300;letter-spacing:0.01em;color:var(--color-text);line-height:1.05;margin-bottom:var(--space-2);}
+.hero-name span{font-style:italic;font-weight:400;}
+.hero-titles{font-size:var(--text-xs);letter-spacing:0.15em;text-transform:uppercase;color:var(--color-text-muted);margin-bottom:var(--space-8);display:flex;gap:var(--space-4);flex-wrap:wrap;}
+.hero-titles span{position:relative;}
+.hero-titles span:not(:last-child)::after{content:'·';position:absolute;right:calc(-1 * var(--space-2) - 2px);color:var(--color-text-faint);}
+.hero-quote{font-family:var(--font-display);font-size:var(--text-xl);font-style:italic;font-weight:300;color:var(--color-text-muted);border-left:2px solid var(--color-gold);padding-left:var(--space-6);max-width:48ch;}
+.hero-portrait{position:relative;}
+.hero-portrait img{width:100%;object-fit:contain;object-position:top center;max-height:600px;filter:grayscale(15%);background:transparent;}
+
+/* STATS */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-1);padding:var(--space-10) 0;border-bottom:1px solid var(--color-divider);}
+.stat{padding:var(--space-6);background:var(--color-surface);text-align:center;}
+.stat-number{font-family:var(--font-display);font-size:var(--text-2xl);font-weight:400;color:var(--color-gold);line-height:1;}
+.stat-label{font-size:var(--text-xs);letter-spacing:0.12em;text-transform:uppercase;color:var(--color-text-muted);margin-top:var(--space-2);}
+
+/* SECTION */
+.section{padding:var(--space-12) 0;border-bottom:1px solid var(--color-divider);}
+.section-label{font-size:var(--text-xs);letter-spacing:0.18em;text-transform:uppercase;color:var(--color-gold);margin-bottom:var(--space-6);}
+.bio-text{font-size:var(--text-base);line-height:1.8;color:var(--color-text);max-width:68ch;}
+.bio-text p+p{margin-top:var(--space-4);}
+
+/* RECOGNITION */
+.recognition-grid{display:flex;flex-wrap:wrap;gap:var(--space-3);margin-top:var(--space-2);}
+.recognition-tag{font-size:var(--text-xs);letter-spacing:0.1em;text-transform:uppercase;padding:var(--space-2) var(--space-4);border:1px solid oklch(from var(--color-text) l c h / 0.12);color:var(--color-text-muted);border-radius:var(--radius-sm);}
+
+/* PHOTO GALLERY */
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-2);margin-top:var(--space-2);}
+.gallery-item{overflow:hidden;aspect-ratio:3/4;background:var(--color-surface-offset);}
+.gallery-item img{width:100%;height:100%;object-fit:cover;object-position:top;transition:transform 0.4s ease,filter 0.4s ease;filter:grayscale(10%);}
+.gallery-item:hover img{transform:scale(1.04);filter:grayscale(0%);}
+
+/* WEBSITES */
+.websites-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--space-4);margin-top:var(--space-2);}
+.website-card{background:var(--color-surface);border:1px solid oklch(from var(--color-text) l c h / 0.08);padding:var(--space-6) var(--space-8);display:flex;flex-direction:column;gap:var(--space-2);transition:box-shadow var(--transition-interactive),border-color var(--transition-interactive);}
+.website-card:hover{box-shadow:var(--shadow-md);border-color:oklch(from var(--color-gold) l c h / 0.35);}
+.website-card-title{font-family:var(--font-display);font-size:var(--text-lg);font-weight:400;color:var(--color-text);}
+.website-card-desc{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.5;}
+.website-card-link{margin-top:var(--space-2);font-size:var(--text-sm);color:var(--color-gold);text-decoration:none;letter-spacing:0.04em;display:inline-flex;align-items:center;gap:var(--space-1);}
+.website-card-link:hover{color:var(--color-gold-hover);}
+.website-card-link svg{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2;}
+
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--space-6) var(--space-10);margin-top:var(--space-2);}
+.contact-item-label{font-size:var(--text-xs);letter-spacing:0.15em;text-transform:uppercase;color:var(--color-text-faint);margin-bottom:var(--space-1);}
+.contact-item-value{font-size:var(--text-sm);color:var(--color-text-muted);}
+.contact-item-value a{color:var(--color-text-muted);text-decoration:none;}
+.contact-item-value a:hover{color:var(--color-gold);}
+
+/* FOOTER */
+.footer{padding:var(--space-10) 0;text-align:center;}
+.footer-text{font-size:var(--text-xs);letter-spacing:0.12em;text-transform:uppercase;color:var(--color-text-faint);}
+
+@media(max-width:700px){
+  .hero{grid-template-columns:1fr;gap:var(--space-6);padding:var(--space-12) 0 var(--space-10);}
+  .hero-portrait{order:-1;width:100%;}
+  /* On mobile: show full portrait, no cropping, natural height */
+  .hero-portrait img{
+    width:100% !important;
+    height:auto !important;
+    max-height:none !important;
+    object-fit:contain !important;
+    object-position:top center !important;
+  }
+  .stats{grid-template-columns:repeat(3,1fr);}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);}
+  .container{padding-inline:var(--space-4);}
+}
+@media(max-width:440px){
+  .gallery-grid{grid-template-columns:1fr 1fr;}
+  .stats{grid-template-columns:1fr 1fr;}
+}
+</style>
+</head>
+<body>
+
+<button class="theme-toggle" data-theme-toggle aria-label="Switch to light mode">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+</button>
+
+<div class="container">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <p class="hero-location">Alamo Ranch, San Antonio &nbsp;·&nbsp; Native of San Francisco</p>
+      <h1 class="hero-name">Abraham Isai<br><span>Cruz Ramirez</span></h1>
+      <div class="hero-titles">
+        <span>Bass-Baritone</span>
+        <span>Teaching Artist</span>
+        <span>COO</span>
+        <span>Philanthropist</span>
+      </div>
+      <blockquote class="hero-quote">"Practicing patience through tremendous growth."</blockquote>
+    </div>
+    <div class="hero-portrait">
+      <img src="assets/photo_01.jpg" alt="Abraham Isai Cruz Ramirez — portrait" width="476" height="1600" loading="eager">
+    </div>
+  </header>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="stat"><div class="stat-number">35+</div><div class="stat-label">Studio Students</div></div>
+    <div class="stat"><div class="stat-number">501c3</div><div class="stat-label">Nonprofit Founder</div></div>
+    <div class="stat"><div class="stat-number">2026</div><div class="stat-label">Lehrer Fellow</div></div>
+  </div>
+
+  <!-- BIOGRAPHY -->
+  <section class="section">
+    <p class="section-label">Biography</p>
+    <div class="bio-text">
+      <p>Born in San Francisco and raised in San Antonio, Abraham began singing at 15 at Thomas Edison High School — joining choir to stay eligible for sports. Under the mentorship of Valerie Watson, his talent earned him a spot in the Texas All-State Mixed Choir (2017).</p>
+      <p>His recent debut with Austin Opera as Benoît &amp; Alcindoro in <em>La Bohème</em> at the Long Center marked a significant milestone in his emerging career. A studio artist with Aspen Opera Theater and VocalARTS, he holds first-place honors from NATS, the National Society of Arts and Letters, Opera Modesto, and the Classical Singer Competition. Selected as a 2026 Lehrer Vocal Institute Fellow at the Music Academy of the West.</p>
+    </div>
+  </section>
+
+  <!-- INSTITUTIONAL RECOGNITION -->
+  <section class="section">
+    <p class="section-label">Institutional Recognition</p>
+    <div class="recognition-grid">
+      <span class="recognition-tag">Austin Opera</span>
+      <span class="recognition-tag">Music Academy of the West</span>
+      <span class="recognition-tag">Aspen Opera Theater</span>
+      <span class="recognition-tag">VocalARTS</span>
+      <span class="recognition-tag">NATS</span>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section class="section">
+    <p class="section-label">The Stage</p>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="assets/photo_02.jpg" alt="Abraham Isai Cruz Ramirez — performance photo 1" width="941" height="1600" loading="lazy"></div><div class="gallery-item"><img src="assets/photo_03.jpg" alt="Abraham Isai Cruz Ramirez — performance photo 2" width="941" height="1600" loading="lazy"></div><div class="gallery-item"><img src="assets/photo_04.jpg" alt="Abraham Isai Cruz Ramirez — performance photo 3" width="941" height="1600" loading="lazy"></div><div class="gallery-item"><img src="assets/photo_05.jpg" alt="Abraham Isai Cruz Ramirez — performance photo 4" width="941" height="1600" loading="lazy"></div><div class="gallery-item"><img src="assets/photo_06.jpg" alt="Abraham Isai Cruz Ramirez — performance photo 5" width="941" height="1600" loading="lazy"></div><div class="gallery-item"><img src="assets/photo_07.jpg" alt="Abraham Isai Cruz Ramirez — performance photo 6" width="941" height="1600" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- ONLINE -->
+  <section class="section">
+    <p class="section-label">Online</p>
+    <div class="websites-grid">
+      <div class="website-card">
+        <div class="website-card-title">Cruz Music Studio</div>
+        <div class="website-card-desc">Private vocal &amp; piano instruction in San Antonio</div>
+        <a class="website-card-link" href="https://cruzmusicstudio.com" target="_blank" rel="noopener noreferrer">
+          cruzmusicstudio.com
+          <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+      <div class="website-card">
+        <div class="website-card-title">Alamo Energy Solutions</div>
+        <div class="website-card-desc">Smart battery powerwall — no solar required</div>
+        <a class="website-card-link" href="https://alamoenergysolutions.com" target="_blank" rel="noopener noreferrer">
+          alamoenergysolutions.com
+          <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section">
+    <p class="section-label">Contact &amp; Connect</p>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <div class="contact-item-label">Studio</div>
+        <div class="contact-item-value"><a href="mailto:Abraham@cruzmusicstudio.com">Abraham@cruzmusicstudio.com</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-label">Nonprofit</div>
+        <div class="contact-item-value"><a href="mailto:Admin@musicforallhearts.org">Admin@musicforallhearts.org</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-label">Energy</div>
+        <div class="contact-item-value"><a href="mailto:Abraham@alamoenergysolutions.com">Abraham@alamoenergysolutions.com</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-label">Instagram</div>
+        <div class="contact-item-value"><a href="https://instagram.com/abraham.isai.cruz" target="_blank" rel="noopener noreferrer">@abraham.isai.cruz</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-label">Facebook / LinkedIn</div>
+        <div class="contact-item-value">Abraham Isai Cruz Ramirez</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-text">© 2026 Abraham Isai Cruz Ramirez &nbsp;·&nbsp; All Rights Reserved</p>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  const t=document.querySelector('[data-theme-toggle]');
+  const r=document.documentElement;
+  let d=r.getAttribute('data-theme')||'dark';
+  function setTheme(theme){
+    d=theme;r.setAttribute('data-theme',d);
+    if(t){
+      t.setAttribute('aria-label','Switch to '+(d==='dark'?'light':'dark')+' mode');
+      t.innerHTML=d==='dark'
+        ?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+        :'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+    }
+  }
+  setTheme(d);
+  if(t) t.addEventListener('click',()=>setTheme(d==='dark'?'light':'dark'));
+})();
+</script>
+</body>
+</html>
